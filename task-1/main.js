@@ -1,3 +1,7 @@
+const prompt = require('prompt');
+prompt.start();
+
+
 prompt.get('input', function (err, result) {
 
    let input = result.input; // "5,2 4 7 12 9"
